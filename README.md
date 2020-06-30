@@ -2,6 +2,14 @@
 
 ### This library is created based on Backdrop component from material design. [Backdrop](https://material.io/design/components/backdrop.html)
 
+![alt text](https://github.com/clust3rr/backdrop-android/blob/master/images/backdrop2.png)
+
+![alt text](https://github.com/clust3rr/backdrop-android/blob/master/images/backdrop1.png)
+1. Back layer
+2. Front layer
+3. Subtitle (optional)
+
+
 ### Usage
 
 1. Include repository
