@@ -15,10 +15,10 @@
 1. Include repository
 ```
 allprojects {
-		repositories {
-			  ...
-			  maven { url 'https://jitpack.io' }
-		}
+    repositories {
+	...
+	maven { url 'https://jitpack.io' }
+	}
 }
 ```
 2. Include project as local library
