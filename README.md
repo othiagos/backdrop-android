@@ -27,7 +27,14 @@ dependencies {
     implementation 'com.github.clust3rr:backdrop-android:v1.0.0'
 }
 ```
-3. In onCreate method 
+3. In your layout
+
+```
+<include android:id="@+id/back" layout="@layout/back" />
+<include android:id="@+id/front" layout="@layout/front" />
+```
+
+4. In onCreate method 
 ```
 Toolbar toolbar = findViewById(R.id.toolbar);
 View backLayer = findViewById(R.id.back_layer);
