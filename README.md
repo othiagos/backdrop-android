@@ -37,7 +37,7 @@ Drawable drawableNavigation = getDrawable(R.drawable.ic_navigation);
 Drawable drawableClose = getDrawable(R.drawable.ic_close);
  
 backdrop = new Backdrop(context, backLayer, frontLayer, duration);
-backdrop.setSupportToolbar(toolbar, drawableMenu, drawableClose);
+backdrop.setSupportToolbar(toolbar, drawableNavigation, drawableClose);
 backdrop.onClickNavigation(v -> {your click listener implementation});
 backdrop.setSupportSubtitle(); //optional
 backdrop.build();
