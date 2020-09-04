@@ -56,7 +56,7 @@ backdrop.show();
 backdrop.showByViewSize();
 backdrop.close();
 ```
-### Compatabiliy
+### Compatibility
 
 Api 24+
 
